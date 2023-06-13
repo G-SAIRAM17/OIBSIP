@@ -1,0 +1,25 @@
+body{
+    background-color: lightcoral;
+}
+.image{
+    border: 1px solid skyblue;
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    transition: .2s ease;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+    cursor: pointer;
+}
+.heading:hover{
+    background: skyblue;
+    transition: 0.2s ease-in-out;
+}
+.edu h1:hover{
+    cursor: pointer;
+    background: skyblue;
+    transition: 0.2s ease-in-out;
+}

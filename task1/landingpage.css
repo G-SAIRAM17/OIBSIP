@@ -1,0 +1,62 @@
+.bike{
+    width: 60px;
+    margin-left: 25px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.menu{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1150px;
+    font-size: large;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    color:darkmagenta;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    background:darkblue;
+    color: white;
+    transition: .2s ease-in-out;
+}
+body{
+    background-position: center;
+    background-size: cover;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin-left: 250px;
+    margin-top: 125px;
+
+}
+.section h1{
+    margin: 0;
+    color: black;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+.section h2{
+    color: darkmagenta;
+    background-color: skyblue;
+}
+.text {
+    color: lightyellow;
+    font-weight: bolder;
+}
+.img{
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000 ;
+    border-radius: 200px;
+    cursor: pointer;
+}
